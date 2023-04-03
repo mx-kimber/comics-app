@@ -12,12 +12,12 @@ class ComicsController < ApplicationController
 
   def create
     @comic = Comic.new(
-      comic: title = params[:title],
-      comic: writer = params[:writer],
-      comic: illustrator = params[:illustrator],
-      comic: year = params[:year],
-      comic: genre = params[:genre],
-      comic: image_url = params[:image_url]
+      title: title = params[:title],
+      writer: writer = params[:writer],
+      illustrator: illustrator = params[:illustrator],
+      year: year = params[:year],
+      genre: genre = params[:genre],
+      image_url: image_url = params[:image_url]
     )
     @comic.save
     render :show
