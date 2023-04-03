@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get "/comics/:id" => "comics#show"
   post "/comics" => "comics#create"
   patch "/comics/:id" => "comics#update"
+  delete "/comics/:id" => "comics#destroy"
 
 end

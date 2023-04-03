@@ -36,5 +36,11 @@ class ComicsController < ApplicationController
     render :show
   end
 
+  def destroy
+    @comic = Comic.find_by(id: params[:id])
+    @comic.destroy
+    render json: {message: "entry destroyed sucessfully"}
+  end
+
 
 end
