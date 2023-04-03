@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+
+# Comic.create(
+#   title:"Transmetropolitan: Back on the Street | #1",
+#   writer: "Warren Ellis",
+#   illustrator: "Darick Robertson",
+#   year: "2000",
+#   genre: "Cyberpunk | Sci-fi | Graphic Novel",
+#   image_url:"https://b9d3a6j7.rocketcdn.me/engine/wp-content/uploads/2017/12/transmetropolitan1.jpg"
+# )
+# comic.save
